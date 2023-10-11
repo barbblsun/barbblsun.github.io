@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        height: 30px;
+        background-color: rgb(202, 179, 135);
+    }
+    .headerBlock{
+        width:200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .smLogo{
+        height: 40px;
+        width: 40px
+
+    }
+
+    .homePhoto{
+        height: 500px;
+        width: 900px;
+        right: 500px;
+        margin: 50px;
+        text-align: center;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        font-size: 18pt;
+        font-weight: bold;
+    }
+    .link{
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 800px;
+    }
+    .footerContent{
+        width:1280px;
+        margin:30px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footerBlock{
+        width:400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-beetween;
+        align-items: center;
+    }
+    .footer{
+        width: 100%;
+        height: 100px;
+        background-color:rgb(202, 179, 135);
+        display: flex;
+        justify-content: center;
+    }
+    .textPhoto{
+      position: absolute;
+      top: 650px;
+      left: 60px;
+      font-size: 35pt;
+      color: white;
+    }
+    .brown-button {
+     background-color: #964B00;
+     color: #FFFFFF;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     position: absolute;
+     top: 800px;
+     left: 650px;
+   }
+</style>
+<body>
+  <div class="header">
+    <div class="headerBlock">
+      <a class = "link" href="main.html">Barb Liasun</a>
+    </div>
+    <div class="headerBlock">
+      <a class = "link" href="about.html">About</a>
+      <a class = "link" href="projects.html">Projects</a>
+      <a class = "link" href="contacts.html">Contacts</a>
+    </div>
+  </div>
+    <div class="content">
+      <img class="homePhoto" src= "images/main.jpg">
+      <div class="textPhoto">
+        BARB LIASUN
+      </div>
+        <span style="font-size:20pt;">Hi! My name is Barb. I am 19, studying at LCC International University and I am one of the voices to care about creation.
+
+This page is about my sustainability path that I took in the past year. Please, feel free to click to learn more about me, my projects, and contacts.
+</span>
+    </div>
+    <div><a href="about.html" class="brown-button">Read about how I started</a></div>
+    <div class="footer">
+        <div class="footerContent">
+                <div class = "footerBlock">
+                    <div style="width: 200px; display: flex; justify-content: space-between; margin-left: 900px;">
+                      <a href="https://www.facebook.com/profile.php?id=100023704929522"><img class="smLogo" src="images/Facebook_Logo.png.webp"></a>
+                      <a href="https://www.linkedin.com/in/barbblsun"><img class="smLogo" src="images\linkedin_logo.webp"></a>
+                      <a href="https://www.instagram.com/barbblsun/"><img class="smLogo" src="images\instagram_logo.png"></a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</html>
